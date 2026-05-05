@@ -54,3 +54,34 @@
 
 
 
+// let arr = [1, 2, 3, 4];
+
+// let sum = arr.reduce((acc, curr) => {
+//   return acc + curr;
+// }, 0);
+
+// console.log(sum);
+
+// function reduce(arr , call , val){
+//     if(arr.length === 0 && val  === undefined){
+//         alert("Array empty hai aur initial value nahi di")
+//     }
+//     let acc;
+//     let start;
+
+//     if(val !== undefined){
+//         acc = val;
+//         start = 0
+//     }
+//     else{
+//         acc = arr[0]
+//         start = 1
+//     }
+
+//     for(let i = start ; i<arr.length; i++){
+//         acc = call(acc , arr[i])
+//     }
+//     return acc
+// }
+// let result = reduce([1,2,3,4] , (acc,cur)=> acc + cur , 0)
+// console.log(result);
