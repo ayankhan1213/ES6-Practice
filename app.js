@@ -202,3 +202,115 @@
 //     return "Invalid email type";
 
 // }
+
+// let result = generate("Ayan" , "aw1800@gmail.com" , "order" , 1234)
+// let result2 = generate("Khan" , "aw18002@gmail.com" , "welcome" , 1221)
+// alert(result)
+// alert(result2)
+
+// Wrong way to Code
+// function getValue(i) {
+//     return i * 2;
+// }
+// for(let i = 0; i<10000; i++){
+//     let value = `${getValue(i)}`
+//     console.log("Value is " + value); 
+// }
+
+// function getValue(i) {
+//     return i * 2;
+// }
+// for(let i = 0; i<10000; i++){
+//     let value = getValue(i)
+//     console.log("Value is " + value); 
+// }
+
+// Proper Way to write Code 
+
+// Simple Functionality Bell Icon
+// document.querySelector("button").addEventListener("click", () => {
+//     let span = document.querySelector("span")
+//     span.textContent++
+//     if (span.textContent > 5) {
+//         document.querySelector(".icon").innerHTML = `🔊<span>${span.textContent}</span>`
+//         span.textContent++
+//     }
+// })
+
+// Swapping From For Loop
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// let str = 0;
+// let end = arr.length - 1
+
+// for (let i = str; str < end; (str++ , end--)){
+//     let save = arr[str];
+//     arr[str] = arr[end];
+//     arr[end] = save
+// }
+// console.log(arr);
+
+
+// Converting into UpperCase
+// let arr = ["ayan" , 'khan' , 'yousuf' , 'sameer' , 'bilawal']
+// let ans = arr.map((newArr)=>{
+//     return newArr.toUpperCase()
+// })
+
+
+
+// let result = generate("Ayan" , "aw1800@gmail.com" , "order" , 1234)
+// let result2 = generate("Khan" , "aw18002@gmail.com" , "welcome" , 1221)
+// alert(result)
+// alert(result2)
+
+// Wrong way to Code
+// function getValue(i) {
+//     return i * 2;
+// }
+// for(let i = 0; i<10000; i++){
+//     let value = `${getValue(i)}`
+//     console.log("Value is " + value); 
+// }
+
+// function getValue(i) {
+//     return i * 2;
+// }
+// for(let i = 0; i<10000; i++){
+//     let value = getValue(i)
+//     console.log("Value is " + value); 
+// }
+
+// Proper Way to write Code 
+
+// Simple Functionality Bell Icon
+// document.querySelector("button").addEventListener("click", () => {
+//     let span = document.querySelector("span")
+//     span.textContent++
+//     if (span.textContent > 5) {
+//         document.querySelector(".icon").innerHTML = `🔊<span>${span.textContent}</span>`
+//         span.textContent++
+//     }
+// })
+
+// Swapping From For Loop
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// let str = 0;
+// let end = arr.length - 1
+
+// for (let i = str; str < end; (str++ , end--)){
+//     let save = arr[str];
+//     arr[str] = arr[end];
+//     arr[end] = save
+// }
+// console.log(arr);
+
+
+// Converting into UpperCase
+// let arr = ["ayan" , 'khan' , 'yousuf' , 'sameer' , 'bilawal']
+// let ans = arr.map((newArr)=>{
+//     return newArr.toUpperCase()
+// })
