@@ -906,4 +906,64 @@
 // let pricesArray = products.map(nw => nw.price)
 // console.log(pricesArray);
 
+// let nums = [5,10,15,20];
+// let condition = nums.filter(v => v>10)
+// console.log(condition);
 
+// let products = [
+//  {name:"Phone", stock:true},
+//  {name:"Laptop", stock:false},
+//  {name:"Watch", stock:true}
+// ];
+// let availableProducts = products.filter((av)=>{
+//     return av.stock
+// })
+// console.log(availableProducts);
+
+
+// let nums = [5,10,15,20];
+// let condition = nums.filter(v => v>10)
+// console.log(condition);
+
+// let products = [
+//  {name:"Phone", stock:true},
+//  {name:"Laptop", stock:false},
+//  {name:"Watch", stock:true}
+// ];
+// let availableProducts = products.filter((av)=>{
+//     return av.stock === true
+// })
+// console.log(availableProducts);
+
+// let cart = [
+//  {name:"Phone", price:500},
+//  {name:"Laptop", price:1000},
+//  {name:"Watch", price:100}
+// ];
+
+// let total = cart.reduce((acc, item) => {
+//    return acc + item.price;
+// }, 0);
+
+// console.log(total);
+
+
+// let fruits = ["apple", "banana", "apple", "orange", "banana"];
+// let result = fruits.reduce((acc, fruit) => {
+
+//    if(acc[fruit]) {
+//       acc[fruit]++;
+//    } else {
+//       acc[fruit] = 1;
+//    }
+
+//    return acc;
+
+// }, {});
+
+// console.log(result);
+
+// let arr = [[1,2],[3,4],[5]];
+// let res = arr.reduce((acc , curr)=>{
+//     return acc.concat(curr)
+// },[])
