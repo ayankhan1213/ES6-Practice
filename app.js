@@ -827,18 +827,39 @@
 
 
 
-let pr = new Promise((res, rej) => {
-    setTimeout(()=>{
-        let num = Math.floor(Math.random() * 10)
-    if (num > 5) {
-        res(`Resolved with ${num}`)
-    } else rej(`Rejected with ${num}`)
-    },2000)
-})
-pr.then((val) => {
-    console.log(val);
-})
-    .catch((val) => {
-        console.log(val);
+// let pr = new Promise((res, rej) => {
+//     setTimeout(()=>{
+//         let num = Math.floor(Math.random() * 10)
+//     if (num > 5) {
+//         res(`Resolved with ${num}`)
+//     } else rej(`Rejected with ${num}`)
+//     },2000)
+// })
+// pr.then((val) => {
+//     console.log(val);
+// })
+//     .catch((val) => {
+//         console.log(val);
         
-    })
+//     })
+
+// let pr = new Promise((res, rej) => {
+//     setTimeout(()=>{
+//         let num = Math.floor(Math.random() * 10)
+//     if (num > 5) {
+//         res(`Resolved with ${num}`)
+//     } else rej(`Rejected with ${num}`)
+//     },2000)
+// })
+
+// async function abcd(){
+//     try{
+//         let val = await pr;
+//         console.log(val);
+//     }
+//     catch(err){
+//         console.log(err);
+        
+//     }
+// }
+// abcd()
