@@ -890,3 +890,20 @@
 // fn();
 // fn();
 
+// Learning Map , Filter , Reduce
+// let nums = [2,4,6];
+// let double = nums.map(val => val*2)
+// console.log(double);
+
+// let names = ["ali", "ayan"];
+// let upperCase = names.map(upper => upper.toUpperCase())
+// console.log(upperCase);
+
+// let products = [
+//   {name: "Phone", price: 100},
+//   {name: "Laptop", price: 500}
+// ];
+// let pricesArray = products.map(nw => nw.price)
+// console.log(pricesArray);
+
+
