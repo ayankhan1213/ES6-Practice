@@ -863,3 +863,30 @@
 //     }
 // }
 // abcd()
+
+// const promise = new Promise((resolve, reject) => {
+//   resolve("Success");
+// });
+
+// promise
+//   .then((data) => {
+//     console.log(data);
+//     return "Next Step";
+//   })
+//   .then(console.log); Return next then ko milta hai
+
+
+// function outer() {
+//   let count = 0;
+
+//   return function inner() {
+//     count++;
+//     console.log(count);
+//   };
+// }
+
+// const fn = outer();
+
+// fn();
+// fn();
+
