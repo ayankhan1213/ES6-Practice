@@ -967,3 +967,24 @@
 // let res = arr.reduce((acc , curr)=>{
 //     return acc.concat(curr)
 // },[])
+
+
+// let users = [
+//  {name:"Ali", active:true, salary:100},
+//  {name:"Ayan", active:false, salary:200},
+//  {name:"Ahmed", active:true, salary:300}
+// ];
+// let res = users.filter(act => act.active).filter(sal => sal.salary).map(sal => sal.salary).reduce((acc,curr)=>{
+//     return acc + curr
+// })
+
+// let nums = [5,10,15];
+// let res = nums.reduce((acc, curr)=>{
+//     return acc + curr
+// },0)
+
+// let words = ["javascript","react","node"];
+// let res = words.reduce((acc,curr) =>{
+//     return acc + curr.length
+// },0)
+
